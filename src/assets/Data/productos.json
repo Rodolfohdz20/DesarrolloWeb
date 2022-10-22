@@ -1,0 +1,44 @@
+[
+    {
+     "Componente": "Camaras de seguridad (c\/u)",
+     "Precio": 2000,
+     "Descripcion": "Instalacion de camaras de seguridad en exteriores, despachos y\/o areas comunes",
+     "Garantia": "3-4 meses"
+    },
+    {
+     "Componente": "Asistente (c\/u)",
+     "Precio": 2000,
+     "Descripcion": "Instalacion de asistentes de la marca de preferencia",
+     "Garantia": "3-4 meses"
+    },
+    {
+     "Componente": "Cerraduras inteligentes (c\/u)",
+     "Precio": 2499,
+     "Descripcion": "Instalacion de cerraduras con huella digital y teclado en puertas exteriores",
+     "Garantia": "3-4 meses"
+    },
+    {
+     "Componente": "Luces Led (p\/m)",
+     "Precio": 500,
+     "Descripcion": "Instalacion de Luces led en habitaciones (5m)",
+     "Garantia": "3-4 meses"
+    },
+    {
+     "Componente": "bombillas inteligentes (c\/u)",
+     "Precio": 200,
+     "Descripcion": "Instalacion de bombillas inteligentes en habitaciones ",
+     "Garantia": "3-4 meses"
+    },
+    {
+     "Componente": "Automatizacion de persianas",
+     "Precio": 5000,
+     "Descripcion": " Automatizacion de persianas en habitaciones ",
+     "Garantia": "3-4 meses"
+    },
+    {
+     "Componente": "Automatizacion de puertas",
+     "Precio": 5000,
+     "Descripcion": "Automatizacion de puertas en habitaciones",
+     "Garantia": "3-4 meses"
+    }
+   ]

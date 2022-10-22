@@ -1,0 +1,38 @@
+[
+    {
+     "Componentes": "Monitor",
+     "PrecioInicial": 2000,
+     "Descripcion": "Monites antireflejantes para equipos de escritorio de distintas dimensiones ",
+     "Garantia": "1 año "
+    },
+    {
+     "Componentes": "Teclado",
+     "PrecioInicial": 1500,
+     "Descripcion": "Teclados iluminados para equipos de escritorio ",
+     "Garantia": "6 meses"
+    },
+    {
+     "Componentes": "Mouse",
+     "PrecioInicial": 800,
+     "Descripcion": "Mouse gamer iluminados e inalambricos",
+     "Garantia": "3 meses"
+    },
+    {
+     "Componentes": "Gabinetes",
+     "PrecioInicial": 2500,
+     "Descripcion": "Gabinentes gamer iluminados para instalacion de componentes ",
+     "Garantia": "3 meses"
+    },
+    {
+     "Componentes": "Escritorios",
+     "PrecioInicial": 3500,
+     "Descripcion": "Escritorios con iluminacion y zonas de cristal para set ups",
+     "Garantia": "3 meses"
+    },
+    {
+     "Componentes": "Altavoces ",
+     "PrecioInicial": 1500,
+     "Descripcion": "Altavoces iluminados para equipos de escritorio ",
+     "Garantia": "1 año "
+    }
+   ]
