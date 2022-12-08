@@ -10,7 +10,7 @@ import { Route } from '@angular/router';
 })
 export class AboutComponent implements OnInit {
 
-  ProductList: any[]=[];
+  ProductList=null;
   SetUpList: any[]=[];
   constructor(private ProductSvc:ProductService, private SetUpSvc:SetUpService) {
     this.ProductSvc.getAll().subscribe((result:any)=>{
@@ -24,6 +24,12 @@ export class AboutComponent implements OnInit {
    }
 
   ngOnInit(): void {
+  }
+  mostrar(){
+    this.SetUpSvc.getAll().subscribe((result:any)=>{
+      this.ProductList=result;
+      console.log(result)
+    })
   }
 
 }

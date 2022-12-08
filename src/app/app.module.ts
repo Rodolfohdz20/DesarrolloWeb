@@ -8,6 +8,8 @@ import { InicioComponent } from './COMPONENTES/PAGES/INICIO/inicio/inicio.compon
 import { AboutComponent } from './COMPONENTES/PAGES/ABOUT/about/about.component';
 import { ContactoComponent } from './COMPONENTES/PAGES/CONTACTO/contacto/contacto.component';
 import { HttpClientModule} from '@angular/common/http';
+import { ProductosComponent } from './COMPONENTES/PRODUCTOS/productos/productos.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,15 @@ import { HttpClientModule} from '@angular/common/http';
     NavbarComponent,
     InicioComponent,
     AboutComponent,
-    ContactoComponent
+    ContactoComponent,
+    ProductosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

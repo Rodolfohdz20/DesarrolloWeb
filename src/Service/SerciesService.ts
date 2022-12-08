@@ -3,14 +3,15 @@ import { HttpClient} from "@angular/common/http";
 import { Observable } from "rxjs";
 
 
-const URL = 'http://localhost/Parcial3/getAll.php';
 @Injectable({
     providedIn: "root"
 })
 
-export class ProductService {
+export class ServicesService {
+    url = "http://localhost/Parcial3/"
     constructor(private http: HttpClient) {}
-    getAll(){
-        return this.http.get(URL)
+    getAll():Observable<any>{
+       /* return this.http.get<any>(this.url)*/
+       return this.http.get(`${this.url}getAll.php`);
     }
 }
